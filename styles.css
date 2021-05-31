@@ -1,0 +1,63 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Merriweather", serif;
+}
+
+h4 {
+  margin-top: 50px;
+}
+
+hr {
+  border-style: solid none none;
+  border-color: lightgray;
+  margin: 50px 0;
+}
+
+li {
+  margin-top: 13px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.personal-info {
+  position: sticky;
+  top: 20%;
+  align-self: center;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.social ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.text {
+  padding: 70px;
+}
+
+.icon {
+  height: 15px;
+}
+
+.external-link {
+  height: 11px;
+}
+
+@media (max-width: 720px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+  
+  .personal-info {
+      padding-top: 50px;
+  }
+}
