@@ -22,7 +22,7 @@ a {
   text-decoration: none;
 }
 
-.personal-info {
+.personal-info-container {
   position: sticky;
   top: 20%;
   align-self: center;
@@ -39,7 +39,7 @@ a {
   padding: 0;
 }
 
-.text {
+.tools-projects-container {
   padding: 70px;
 }
 
@@ -52,7 +52,7 @@ a {
     padding: 50px 0;
   }
 
-  .text {
+  .tools-projects-container {
     padding: 20px;
   }
 }
