@@ -16,6 +16,13 @@ a {
   text-decoration: none;
 }
 
+.languages {
+  position: sticky;
+  top: 2%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .personal-info-container {
   position: sticky;
   top: 20%;
