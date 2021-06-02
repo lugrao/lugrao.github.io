@@ -22,6 +22,11 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   padding: 15px;
+  height: 20px;
+}
+
+.languages img {
+  vertical-align: middle;
 }
 
 .personal-info-container {
