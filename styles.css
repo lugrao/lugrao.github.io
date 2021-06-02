@@ -5,13 +5,7 @@ body {
 }
 
 h3 {
-  margin-top: 50px;
-}
-
-hr {
-  border-style: solid none none;
-  border-color: lightgray;
-  margin: 50px 0;
+  margin-top: 35px;
 }
 
 li {
@@ -41,6 +35,10 @@ a {
 
 .tools-projects-container {
   padding: 70px;
+}
+
+#proyectos {
+  margin-top: 70px;
 }
 
 @media (max-width: 720px) {
