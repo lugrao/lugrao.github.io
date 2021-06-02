@@ -48,7 +48,7 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .personal-info {
+  .personal-info-container {
     padding: 50px 0;
   }
 
