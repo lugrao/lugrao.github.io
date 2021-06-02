@@ -18,7 +18,7 @@ a {
 
 .languages {
   position: sticky;
-  top: 0;
+  top: 2%;
   display: grid;
   grid-template-columns: 1fr;
   padding: 15px;
