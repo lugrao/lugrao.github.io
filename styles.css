@@ -18,9 +18,10 @@ a {
 
 .languages {
   position: sticky;
-  top: 2%;
+  top: 0;
   display: grid;
   grid-template-columns: 1fr;
+  padding: 15px;
 }
 
 .personal-info-container {
@@ -51,6 +52,10 @@ a {
 @media (max-width: 720px) {
   body {
     grid-template-columns: 1fr;
+  }
+
+  .languages {
+    position: inherit;
   }
 
   .personal-info-container {
