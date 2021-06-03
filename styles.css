@@ -17,12 +17,18 @@ a {
 }
 
 .languages {
-  position: sticky;
-  top: 2%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+}
+
+.languages div {
+  position: fixed;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 15px;
-  height: 20px;
 }
 
 .languages img {
@@ -59,7 +65,7 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .languages {
+  .languages div {
     position: inherit;
   }
 
