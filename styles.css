@@ -64,6 +64,11 @@ a {
   body {
     grid-template-columns: 1fr;
   }
+  
+  .languages {
+    position: inherit;
+    margin-left: auto;
+  }
 
   .languages div {
     position: inherit;
