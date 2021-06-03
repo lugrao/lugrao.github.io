@@ -60,7 +60,7 @@ a {
   margin-top: 70px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   body {
     grid-template-columns: 1fr;
   }
