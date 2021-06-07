@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 h3 {
@@ -65,7 +65,7 @@ a {
   body {
     grid-template-columns: 1fr;
   }
-  
+
   .languages {
     position: inherit;
     margin-left: auto;
